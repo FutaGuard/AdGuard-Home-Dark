@@ -2,8 +2,13 @@
 @name        AdGuard-Home Dark
 @namespace   AGH
 @version     1.0.1
+<<<<<<< HEAD
 @homepageURL https://github.com/FutaGuard/AdGuard-Home-Dark
 @updateURL   https://raw.githubusercontent.com/FutaGuard/AdGuard-Home-Dark/master/agh.user.css
+=======
+@homepageURL https: //github.com/FutaGuard/AdGuard-Home-Dark
+@updateURL   https: //raw.githubusercontent.com/FutaGuard/AdGuard-Home-Dark/master/agh.user.css
+>>>>>>> master
 @license     CC-BY-SA-4.0
 @author      FutaGuard
 ==/UserStyle==*/
@@ -210,6 +215,7 @@ ALERTS
     /***
 INPUTS
 */
+<<<<<<< HEAD
     .ReactTable .rt-thead.-filters input,
     .ReactTable .rt-thead.-filters select,
     .ReactTable .-pagination input,
@@ -245,3 +251,39 @@ INPUTS
         background-color: #222222;
     }
 }
+=======
+.ReactTable .rt-thead.-filters input,
+.ReactTable .rt-thead.-filters select,
+.ReactTable .-pagination input,
+.ReactTable .-pagination select,
+.ReactTable .-pagination .-btn,
+.custom-select,
+.btn-secondary,
+.custom-switch-indicator,
+.select.select--language,
+.form-control--textarea,
+.form-control,
+.form-control:focus,
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+.btn-secondary {
+    background-color: #336633;
+}
+
+.checkbox__label-subtitle,
+.form__desc {
+    color: #aaaaaa;
+}
+
+.logs__input-wrap .tooltip-custom--logs {
+    filter: invert(0.9) saturate(5) hue-rotate(50deg);
+}
+
+.rt-td .logs__action {
+    background-color: #222222;
+}
+>>>>>>> master
